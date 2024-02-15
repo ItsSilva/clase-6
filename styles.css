@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.contenedor{
+border: 0.3rem double red;
+display: flex;
+flex-direction: row;
+/* flex-direction: column; */
+justify-content: center;
+height: 50vh;
+align-items: center;
+gap: 1rem;
+}
+.contenedor__cuadrito{
+background-color: yellow;
+width: 200px;
+height: 200px;
+border: 0.1rem solid green;
+}
